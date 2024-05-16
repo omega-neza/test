@@ -1,0 +1,248 @@
+{
+  "questions": [
+    {
+      "question": "hello",
+      "answer": "hello "
+    },
+    {
+      "question": "hey there",
+      "answer": "hi there!"
+    },
+    {
+      "question": "how are you",
+      "answer": "I am good, how are you?"
+    },
+    {
+      "question": "I am good too",
+      "answer": "How can I help you today?"
+    },
+    {
+      "question": "I want to know which program to study in AUCA",
+      "answer": "It's great that you have an interest in AUCA, what are some topics you are interested in?"
+    },
+    {
+      "question": "I am interested in maths and computers",
+      "answer": "According to your interests, you can choose to study information technology, which has 3 departments; Information management, software engineering and networks&communication systems"
+    },
+    {
+      "question": "hi",
+      "answer": "hey there!, how can I help you?"
+    },
+    {
+      "question": "What majors does the Faculty of Education offer?",
+      "answer": "The Faculty of Education offers majors such as English, French, Educational Psychology, Religion, Accounting, Economics, Information Technology, Geography, History, and Mathematics."
+    },
+    {
+      "question": "Can you tell me about the Faculty of Business Administration's majors?",
+      "answer": "The Faculty of Business Administration offers majors in Accounting, Finance, Management, and Marketing."
+    },
+    {
+      "question": "What degrees are available in the Faculty of Health Sciences?",
+      "answer": "Information about the degrees offered in the Faculty of Health Sciences is not provided. You may want to contact AUCA directly for more information."
+    },
+    {
+      "question": "What is AUCA?",
+      "answer": "AUCA stands for Adventist University of Central Africa. It is a higher education institution located in Central Africa."
+    },
+    {
+      "question": "Where is AUCA located?",
+      "answer": "AUCA is located in Central Africa. More specific location details can be obtained from the university's website or by contacting them directly."
+    },
+    {
+      "question": "What programs does AUCA offer?",
+      "answer": "AUCA offers programs in various faculties including Information Technology, Education, Business Administration, and Health Sciences."
+    },
+    {
+      "question": "Is AUCA accredited?",
+      "answer": "Accreditation information for AUCA can typically be found on their website or by contacting the university directly."
+    },
+    {
+      "question": "How can I apply to AUCA?",
+      "answer": "Information about the application process for AUCA can usually be found on our website or by contacting the admissions office."
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello! How can I assist you today?"
+    },
+    {
+      "question": "Hi",
+      "answer": "Hi there! What can I help you with?"
+    },
+    {
+      "question": "Hey",
+      "answer": "Hey! Welcome! What would you like to know?"
+    },
+    {
+      "question": "Good morning",
+      "answer": "Good morning! How can I help you today?"
+    },
+    {
+      "question": "Good afternoon",
+      "answer": "Good afternoon! What can I assist you with?"
+    },
+    {
+      "question": "Good evening",
+      "answer": "Good evening! How may I assist you?"
+    },
+    {
+      "question": "How are you?",
+      "answer": "I'm doing well, thank you! How about yourself?"
+    },
+    {
+      "question": "What's up?",
+      "answer": "Not much! How can I help you today?"
+    },
+    {
+      "question": "Howdy",
+      "answer": "Howdy! What can I do for you?"
+    },
+    {
+      "question": "Yo",
+      "answer": "Yo! How can I assist you?"
+    },
+    {
+      "question": "Can you provide more details about the Information Management program?",
+      "answer": "The Information Management program focuses on managing information systems within organizations. It covers topics such as database management, information security, and data analysis."
+    },
+    {
+      "question": "What career opportunities are available for graduates of the Network & Communication Systems program?",
+      "answer": "Graduates of the Network & Communication Systems program can pursue careers as network administrators, systems analysts, IT consultants, or network engineers."
+    },
+    {
+      "question": "How does the Software Engineering program differ from the Information Technology program?",
+      "answer": "The Software Engineering program focuses specifically on the development of software systems, whereas the Information Technology program covers a broader range of topics including networking, information management, and software development."
+    },
+    {
+      "question": "What are the admission requirements for the Bachelor of Education program?",
+      "answer": "Admission requirements for the Bachelor of Education program may vary. Typically, they include a high school diploma or equivalent, as well as specific subject prerequisites depending on the chosen major."
+    },
+    {
+      "question": "Are there any scholarships available for students at AUCA?",
+      "answer": "Information about scholarships available at AUCA can usually be found on their website or by contacting the financial aid office."
+    },
+    {
+      "question": "Can you tell me about the facilities and resources available for students at AUCA?",
+      "answer": "AUCA typically provides various facilities and resources for students including libraries, laboratories, computer facilities, and student support services. More specific information can be obtained from the university's website or by visiting the campus."
+    },
+    {
+      "question": "Thank you",
+      "answer": "You're welcome! If you have any more questions, feel free to ask."
+    },
+    {
+      "question": "Thanks",
+      "answer": "You're welcome! Let me know if there's anything else I can help with."
+    },
+    {
+      "question": "Goodbye",
+      "answer": "Goodbye! Have a great day!"
+    },
+    {
+      "question": "See you later",
+      "answer": "See you later! Take care!"
+    },
+    {
+      "question": "Bye",
+      "answer": "Bye! Don't hesitate to come back if you need assistance."
+    },
+    {
+      "question": "yo",
+      "answer": "Yo! How can I assist you?"
+    },
+    {
+      "question": "tell me about AUCA",
+      "answer": "AUCA stands for Adventist University of Central Africa. It is a higher education institution located in Central Africa."
+    },
+    {
+      "question": "What extracurricular activities are available for students at AUCA?",
+      "answer": "AUCA offers a variety of extracurricular activities such as clubs, sports teams, cultural events, and community service opportunities."
+    },
+    {
+      "question": "Can students at AUCA participate in internships or work placements?",
+      "answer": "Yes, AUCA often facilitates internships and work placements for students to gain practical experience in their field of study."
+    },
+    {
+      "question": "Are there any study abroad programs or exchange opportunities at AUCA?",
+      "answer": "AUCA may offer study abroad programs or exchange opportunities in collaboration with partner institutions. More information can be obtained from the international programs office."
+    },
+    {
+      "question": "What support services are available for international students at AUCA?",
+      "answer": "AUCA typically provides support services for international students including visa assistance, housing options, language support, and cultural integration programs."
+    },
+    {
+      "question": "How can I contact the admissions office at AUCA?",
+      "answer": "You can contact the admissions office at AUCA by phone, email, or visiting their website for contact information."
+    },
+    {
+      "question": "What is the average class size at AUCA?",
+      "answer": "The average class size at AUCA may vary depending on the program and specific courses. However, class sizes are generally designed to facilitate interactive learning and student engagement."
+    },
+    {
+      "question": "Does AUCA offer distance learning or online courses?",
+      "answer": "AUCA may offer distance learning or online courses for certain programs. More information can be obtained from the academic affairs office or by visiting their website."
+    },
+    {
+      "question": "What research opportunities are available for undergraduate students at AUCA?",
+      "answer": "Undergraduate students at AUCA may have opportunities to participate in research projects, collaborate with faculty members, and present their findings at conferences or symposiums."
+    },
+    {
+      "question": "Are there any specialized facilities or labs for students in the Faculty of Health Sciences?",
+      "answer": "Yes, AUCA typically provides specialized facilities and laboratories for students in the Faculty of Health Sciences to support hands-on learning and research in areas such as anatomy, physiology, and medical technology."
+    },
+    {
+      "question": "What is the student demographic like at AUCA?",
+      "answer": "The student demographic at AUCA may vary, but typically includes a diverse mix of local and international students from different backgrounds and cultures."
+    },
+    {
+      "question": "I'm interested in technology. What programs would you recommend for me at AUCA?",
+      "answer": "If you're passionate about technology, AUCA offers programs in Information Technology with concentrations in Information Management, Network & Communication Systems, and Software Engineering. These programs can provide you with the skills and knowledge needed for a successful career in the tech industry."
+    },
+    {
+      "question": "I want to become a teacher. What education programs does AUCA offer?",
+      "answer": "If you aspire to become a teacher, AUCA offers Bachelor of Education programs in various majors including English, French, Educational Psychology, Religion, Accounting, Economics, Information Technology, Geography, and History. These programs can prepare you for a rewarding career in education."
+    },
+    {
+      "question": "I'm interested in business and finance. What majors should I consider at AUCA?",
+      "answer": "For those interested in business and finance, AUCA offers Bachelor of Business Administration programs with majors in Accounting, Finance, Management, and Marketing. These programs can equip you with the skills and knowledge needed to excel in the business world."
+    },
+    {
+      "question": "I'm passionate about healthcare. What programs does AUCA offer in the health sciences?",
+      "answer": "If you're passionate about healthcare, AUCA offers programs in the Faculty of Health Sciences including Bachelor of Nursing, Bachelor of Pharmacy, and Bachelor of Public Health. These programs can help you pursue a fulfilling career in healthcare."
+    },
+    {
+      "question": "I'm interested in studying abroad. Does AUCA have any exchange programs?",
+      "answer": "Currently, AUCA does not offer study abroad programs or exchange opportunities."
+    },
+    {
+      "question": "What faculties does AUCA have?",
+      "answer": "AUCA has several faculties including the Faculty of Information Technology, Faculty of Education, Faculty of Business Administration, and Faculty of Health Sciences."
+    },
+    {
+      "question": "Can you tell me about the programs offered by the Faculty of Information Technology?",
+      "answer": "The Faculty of Information Technology at AUCA offers programs in Information Management, Network & Communication Systems, and Software Engineering."
+    },
+    {
+      "question": "What majors are available in the Faculty of Education?",
+      "answer": "The Faculty of Education offers majors such as English, French, Educational Psychology, Religion, Accounting, Economics, Information Technology, Geography, and History."
+    },
+    {
+      "question": "Are there any specialized programs offered by the Faculty of Business Administration?",
+      "answer": "Yes, the Faculty of Business Administration offers specialized programs in Accounting, Finance, Management, and Marketing."
+    },
+    {
+      "question": "What are the focus areas of study in the Faculty of Health Sciences?",
+      "answer": "The Faculty of Health Sciences focuses on areas such as Nursing, Pharmacy, and Public Health."
+    },
+    {
+      "question": "bite",
+      "answer": "ni byiza"
+    },
+    {
+      "question": "amakuru",
+      "answer": "ni meza"
+    },
+    {
+      "question": "hola",
+      "answer": "hola"
+    }
+  ]
+}

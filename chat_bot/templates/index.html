@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Auca ChatBot</h1>
+        <div id="chat-container"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="askQuestion()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function askQuestion() {
+            var userQuestion = document.getElementById("user-input").value;
+            document.getElementById("user-input").value = "";
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/ask", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var response = xhr.responseText;
+                    var chatContainer = document.getElementById("chat-container");
+                    chatContainer.innerHTML += "<p><strong>You:</strong> " + userQuestion + "</p>";
+                    chatContainer.innerHTML += "<p><strong>Bot:</strong> " + response + "</p>";
+
+                    // Check if the bot asks to be taught
+                    if (response.includes("teach me")) {
+                        teachBot(userQuestion);
+                    }
+                }
+            };
+            xhr.send("user_question=" + userQuestion);
+        }
+
+        function teachBot(userQuestion) {
+            var newAnswer = prompt("Type the answer:");
+            if (newAnswer !== null && newAnswer.trim() !== "") {
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "/teach", true);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var response = xhr.responseText;
+                        var chatContainer = document.getElementById("chat-container");
+                        chatContainer.innerHTML += "<p><strong>You:</strong> " + userQuestion + "</p>";
+                        chatContainer.innerHTML += "<p><strong>Bot:</strong> " + response + "</p>";
+                    }
+                };
+                xhr.send("user_question=" + userQuestion + "&new_answer=" + newAnswer);
+            }
+        }
+    </script>
+</body>
+</html>
